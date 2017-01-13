@@ -1,0 +1,101 @@
+/* fonts*/
+
+@font-face {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Slab', serif;
+    src: https: //fonts.googleapis.com/css?family=Josefin+Slab;
+    src: https: //fonts.googleapis.com/css?family=Pacifico;
+    src: https: //fonts.googleapis.com/css?family=Amatic+SC;
+}
+
+#yourAstroWeightH1 {
+    font-family: Pacifico, Arial, sans-sarif;
+    font-size: 4em;
+    color: #c9872c;
+}
+
+label {
+    font-family: Amatic SC, Arial, sans-sarif;
+    font-style: bold;
+    font-size: 3em;
+    color: #fff;
+}
+
+#yourWeight {
+    font-family: Amatic SC, Arial, sans-sarif;
+    font-style: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+#calculateButton {
+    font-family: Amatic SC, Arial, sans-sarif;
+    font-style: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+#planetSelect {
+    font-family: Amatic SC, Arial, sans-sarif;
+    font-style: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+#answerOutput {
+    font-family: Pacifico, Arial, sans-sarif;
+    font-style: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+#sortedTable {
+    font-family: Amatic SC, Arial, sans-sarif;
+    font-style: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+
+/* Table */
+
+body {
+    background: url('../img/stars_spaces.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#headingUnit {
+    margin: 4%;
+}
+
+.container {
+    float: right;
+    clear: none;
+}
+
+#form {
+    float: left;
+    margin-left: 4%;
+}
+
+td {
+    border: 0;
+    border-style: 0;
+    border-raidus: 2px;
+    text-align: center;
+    background: rgba(75, 78, 144, .55);
+}
+
+th {
+    background: rgba(255, 255, 255, .3);
+}
+
+#yourWeight,
+#planetSelect,
+#calculateButton {
+    text-align: center;
+    background: rgba(236, 169, 31, .3);
+    border: none;
+    border-raidus: 10px;
+}
